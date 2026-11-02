@@ -1,0 +1,217 @@
+{
+  "id": "menu-foto-1-20261026",
+  "sourceFile": "Foto 1.jpg",
+  "sourceSHA256": "6f1487a7912de0d936acdbd86f73feac2c6450fbf1d44fb19485fab66e39aaa2",
+  "approvedBy": "owner",
+  "approvedAt": "2026-10-26",
+  "validity": "Menu prices approved until replaced; no expiry date supplied",
+  "scope": "Restaurant menu; no delivery price inferred",
+  "notes": [
+    "Arroz familiar has no amount on board: not priced or added.",
+    "Nuggets quantity and portable drink volume not specified: not invented.",
+    "Piezas/asado not listed on board: previous asado entries retain pending prices.",
+    "Chuco and tacos: beverage is pictured but inclusion not stated in board text, so not promised.",
+    "Asterisks on papas/ensalada have no legible conditions in photo."
+  ],
+  "products": [
+    {
+      "id": "combo-familiar",
+      "name": "Combo familiar",
+      "price": 405,
+      "variants": []
+    },
+    {
+      "id": "combo-individual",
+      "name": "Combo individual",
+      "price": 120,
+      "variants": []
+    },
+    {
+      "id": "combo-pareja",
+      "name": "Combo pareja",
+      "price": 239,
+      "variants": []
+    },
+    {
+      "id": "combo-hamburguesa",
+      "name": "Combo hamburguesa",
+      "price": 120,
+      "variants": []
+    },
+    {
+      "id": "combo-tacos",
+      "name": "Tacos · orden de 3",
+      "price": 150,
+      "variants": []
+    },
+    {
+      "id": "pollo-chuco",
+      "name": "Pollo chuco",
+      "price": 150,
+      "variants": [
+        {
+          "name": "Pierna muslo con tajadas",
+          "amount": 150
+        },
+        {
+          "name": "Pechuga con tajadas",
+          "amount": 150
+        }
+      ]
+    },
+    {
+      "id": "chicken-fingers",
+      "name": "Chicken fingers",
+      "price": 175,
+      "variants": []
+    },
+    {
+      "id": "alitas",
+      "name": "Alitas",
+      "price": 180,
+      "variants": [
+        {
+          "name": "6 alitas",
+          "amount": 180
+        },
+        {
+          "name": "12 alitas",
+          "amount": 280
+        }
+      ]
+    },
+    {
+      "id": "pieza-frita",
+      "name": "Pieza frita con complemento",
+      "price": 63,
+      "variants": [
+        {
+          "name": "Pierna o ala",
+          "amount": 63
+        },
+        {
+          "name": "Muslo",
+          "amount": 68
+        },
+        {
+          "name": "Pechuga",
+          "amount": 85
+        }
+      ]
+    },
+    {
+      "id": "seis-piezas",
+      "name": "6 piezas de pollo frito",
+      "price": 333,
+      "variants": []
+    },
+    {
+      "id": "papa-familiar",
+      "name": "Papa familiar",
+      "price": 130,
+      "variants": []
+    },
+    {
+      "id": "papa-personal",
+      "name": "Papa personal",
+      "price": 35,
+      "variants": []
+    },
+    {
+      "id": "ensalada-personal",
+      "name": "Ensalada personal",
+      "price": 35,
+      "variants": []
+    },
+    {
+      "id": "tajadas-personal",
+      "name": "Tajadas personal",
+      "price": 60,
+      "variants": []
+    },
+    {
+      "id": "arroz-chino-personal",
+      "name": "Arroz chino personal",
+      "price": 35,
+      "variants": []
+    },
+    {
+      "id": "refresco-lata",
+      "name": "Refresco personal en lata",
+      "price": 28,
+      "variants": []
+    },
+    {
+      "id": "refresco-15l",
+      "name": "Refresco de 1.5 litros",
+      "price": 52,
+      "variants": []
+    },
+    {
+      "id": "personal-pierna-ala-sin-refresco",
+      "name": "Pierna + ala con complemento",
+      "price": 94,
+      "variants": []
+    },
+    {
+      "id": "personal-pierna-muslo",
+      "name": "Personal pierna + muslo",
+      "price": 125,
+      "variants": []
+    },
+    {
+      "id": "personal-pechuga",
+      "name": "Personal pechuga frita",
+      "price": 111,
+      "variants": []
+    },
+    {
+      "id": "infantil-pierna",
+      "name": "Infantil · 1 pierna",
+      "price": 85,
+      "variants": []
+    },
+    {
+      "id": "infantil-nuggets",
+      "name": "Infantil · nuggets",
+      "price": 100,
+      "variants": []
+    },
+    {
+      "id": "ensalada-familiar",
+      "name": "Ensalada familiar",
+      "price": 130,
+      "variants": []
+    },
+    {
+      "id": "tajadas-familiar",
+      "name": "Tajadas familiar",
+      "price": 150,
+      "variants": []
+    },
+    {
+      "id": "yuca-personal",
+      "name": "Yuca personal",
+      "price": 50,
+      "variants": []
+    },
+    {
+      "id": "yuca-familiar",
+      "name": "Yuca familiar",
+      "price": 160,
+      "variants": []
+    },
+    {
+      "id": "refresco-portatil",
+      "name": "Refresco portátil",
+      "price": 30,
+      "variants": []
+    },
+    {
+      "id": "refresco-2l",
+      "name": "Refresco de 2 litros",
+      "price": 67,
+      "variants": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+<base href="../">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Yuca personal | Pollopolis</title>
+  <meta name="description" content="Porción personal de yuca.">
+  <meta name="theme-color" content="#1A3A9C">
+  <meta property="og:type" content="website"><meta property="og:locale" content="es_HN">
+  <meta property="og:title" content="Yuca personal · Pollopolis">
+  <meta property="og:description" content="Porción personal de yuca.">
+  <meta property="og:url" content="https://mhnpages.github.io/pollopolistgu/productos/yuca-personal.html">
+  <meta property="og:image" content="https://mhnpages.github.io/pollopolistgu/assets/photos/owner-20261028-yuca-personal-1400.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://mhnpages.github.io/pollopolistgu/productos/yuca-personal.html">
+  <link rel="preload" href="assets/fonts/Bangers-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="theme-v2.css"><script defer src="app-standalone.js"></script>
+</head>
+<body>
+  <a class="skip" href="#menu">Saltar al menú</a>
+  <div class="topline">HONDURAS <span>¡AQUÍ SIEMPRE HAY MÁS!</span> MENÚ DIGITAL</div>
+  <header class="header">
+    <a class="logo" href="#inicio" aria-label="Pollopolis, inicio"><img src="assets/logo-oficial.png" width="900" height="339" alt="Pollopolis. ¡Aquí siempre hay más!"></a>
+    <nav aria-label="Navegación principal"><a href="#menu">El menú</a><a href="#elegir">Ayúdame a elegir</a><a href="#sucursales">Sucursales</a></nav>
+    <a class="button small red" href="#sucursales">DÓNDE PEDIR <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="inicio">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">EL ANTOJO YA ESTÁ. SOLO FALTA ELEGIR.</p><h1 id="hero-title">¿QUÉ <br>COMEMOS<br><span>HOY?</span></h1><p class="intro">En Pollopolis siempre hay más para escoger.</p><div class="actions"><a class="button red" href="#menu">VER TODO EL MENÚ <span aria-hidden="true">↗</span></a><a class="button yellow" href="#elegir">TE AYUDAMOS A ELEGIR <span aria-hidden="true">→</span></a></div></div>
+      <div class="hero-visual"><div id="hero-price"></div><div class="photo-label">¡AQUÍ SIEMPRE HAY MÁS!</div><img src="assets/photos/final-08-1400.webp" srcset="assets/photos/final-08-600.webp 600w, assets/photos/final-08-1400.webp 1400w" sizes="(max-width:760px) 100vw, 56vw" width="1400" height="1750" fetchpriority="high" alt="Combo familiar Pollopolis, imagen final seleccionada para el menú."><div class="hero-caption"><span>POLLOPOLIS</span><span>POLLO FRITO · Y MUCHO MÁS</span></div></div>
+    </section>
+    <div class="brand-strip"><div class="ticker-track"><div class="ticker-group"><span>¡AQUÍ SIEMPRE HAY MÁS!</span><b>★</b><span>POLLO FRITO, ASADO Y MÁS</span><b>★</b><span>HOY NO SE COCINA</span><b>★</b><span>¡PASA POR POLLOPOLIS!</span><b>★</b></div><div class="ticker-group" aria-hidden="true"><span>¡AQUÍ SIEMPRE HAY MÁS!</span><b>★</b><span>POLLO FRITO, ASADO Y MÁS</span><b>★</b><span>HOY NO SE COCINA</span><b>★</b><span>¡PASA POR POLLOPOLIS!</span><b>★</b></div></div><button id="ticker-toggle" class="ticker-toggle" aria-label="Pausar cintillo" aria-pressed="false">Ⅱ</button></div>
+    <section class="section occasions" aria-labelledby="occasion-title"><div class="section-head"><div><p class="eyebrow red-text">TU COMIDA, A TU MANERA</p><h2 id="occasion-title">¿QUÉ NECESITAS <span>RESOLVER?</span></h2></div><p>Un almuerzo. Un plan para dos.<br>Una mesa que se llena.</p></div><div class="occasion-grid" id="occasions"></div></section>
+    <section class="section featured" aria-labelledby="featured-title"><div class="section-head"><div><p class="eyebrow red-text">EMPIEZA POR EL ANTOJO</p><h2 id="featured-title">MÍRALO. <span>ELÍGELO.</span></h2></div><a class="under-link" href="#menu">Explorar todo el menú ↗</a></div><div class="product-grid" id="featured"></div></section>
+    <section id="elegir" class="chooser-wrap"><div class="section chooser"><div class="chooser-intro"><p class="eyebrow">POCOS PASOS. MÁS OPCIONES.</p><h2>TE AYUDAMOS<br>A <span>ELEGIR.</span></h2><p>Tú pones el antojo.<br>Nosotros te acercamos al menú.</p><div class="steps" aria-label="Progreso"><span id="step-one" class="current">01 · PARA QUIÉN</span><span id="step-two">02 · TU ANTOJO</span><span id="step-three">03 · TUS OPCIONES</span></div></div><div id="quiz" class="quiz"></div></div></section>
+    <section class="section menu" id="menu" aria-labelledby="menu-title"><div class="section-head"><div><p class="eyebrow red-text">HAY MUCHO POR DESCUBRIR</p><h2 id="menu-title">TODO EL <span>MENÚ.</span></h2></div><p>Precios en restaurante, en lempiras.<br>Pueden variar en PedidosYa.</p></div><div id="filters" class="filters" role="group" aria-label="Filtrar productos por categoría"></div><div class="menu-tools"><p id="menu-count" aria-live="polite"></p><label class="search"><span class="sr-only">Buscar un producto</span><input id="product-search" type="search" placeholder="¿Buscas algo en particular?" autocomplete="off"><span aria-hidden="true">⌕</span></label></div><div id="catalog" class="product-grid" aria-live="polite"></div><noscript>Activa JavaScript para explorar el catálogo interactivo. Consulta el menú y las sucursales en los canales de Pollopolis.</noscript></section>
+    <section class="section promotions" id="promociones" hidden><div class="section-head"><h2>PROMOCIONES <span>VIGENTES.</span></h2></div><div id="promotions" class="product-grid"></div></section>
+    <section class="branches-wrap" id="sucursales"><div class="section branches"><div class="branch-intro"><p class="eyebrow red-text">EL SIGUIENTE PASO ESTÁ AQUÍ</p><h2>ENCUENTRA TU<br><span>POLLOPOLIS.</span></h2><p>Elige tu zona, explora el mapa y visita tu Pollopolis.</p><label class="search"><span class="sr-only">Buscar sucursal por nombre o zona</span><input id="branch-search" type="search" placeholder="Busca tu sucursal o zona" autocomplete="off"><span aria-hidden="true">⌕</span></label><p class="note">Estamos actualizando este directorio. Confirma dirección, horario y canales disponibles con Pollopolis.</p><div class="map-panel"><iframe id="branch-map" title="Buscar Pollopolis en Google Maps" src="https://maps.google.com/maps?q=Pollopolis%20Tegucigalpa%20Honduras&amp;output=embed&amp;hl=es" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><div class="map-caption"><p id="map-status" aria-live="polite">Resultados de búsqueda de Pollopolis en Tegucigalpa.</p><a id="map-open" href="https://www.google.com/maps/search/?api=1&amp;query=Pollopolis%20Tegucigalpa%20Honduras" target="_blank" rel="noopener noreferrer">ABRIR GOOGLE MAPS ↗</a></div></div></div><div><p id="branch-count" class="eyebrow" aria-live="polite"></p><div id="branches" class="branch-list"></div></div></div></section>
+    <section class="closing"><p class="eyebrow">DEL ANTOJO A LA MESA</p><h2>¡AQUÍ SIEMPRE<br>HAY <span>MÁS!</span></h2><a href="#menu" class="button yellow">VUELVE AL MENÚ ↑</a></section>
+  </main>
+  <footer><img src="assets/logo-oficial.png" width="900" height="339" alt="Pollopolis"><p>Menú digital · Honduras<br><small>Precios del menú proporcionado por Pollopolis. Consulta disponibilidad en sucursal.</small></p><div class="follow-us"><strong>SÍGUENOS</strong><div id="socials" class="socials"></div><small>Novedades de Pollopolis en tus redes.</small></div><a href="#inicio">Volver arriba ↑</a></footer>
+  <nav class="mobile-nav" aria-label="Accesos móviles"><a href="#menu">EL MENÚ</a><a href="#elegir">AYÚDAME A ELEGIR</a><a href="#sucursales">DÓNDE PEDIR ↗</a></nav>
+  <a class="pedidos-float" href="https://www.pedidosya.com.hn/restaurantes/tegucigalpa/pollopolis-las-uvas-e5771c27-401a-409a-8123-ed8370589fca-menu" target="_blank" rel="noopener noreferrer" aria-label="Pedir en PedidosYa · Pollopolis Las Uvas"><span class="pedidos-float-main">PEDIR AQUÍ ↗</span><span class="pedidos-float-sub">PedidosYa · Las Uvas</span></a>
+  <dialog id="product-dialog" aria-labelledby="detail-title"><button class="close" id="close-product" aria-label="Cerrar detalles">✕</button><div id="product-detail"></div></dialog>
+  <dialog id="order-dialog" aria-labelledby="order-title"><button class="close" id="close-order" aria-label="Cerrar dónde pedir">✕</button><div id="order-detail"></div></dialog>
+  <p id="toast" class="toast" role="status" hidden></p>
+</body></html>
+
